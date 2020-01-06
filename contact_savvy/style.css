@@ -1,0 +1,58 @@
+.header { 
+    height: 100px;
+}
+#myNav {
+    background-image: linear-gradient(to right,#4A90E2,#80C3F3) !important;
+}
+.background-image {
+    height: 73px;
+    width: 73px;
+
+}
+.seperator{ 
+    background: #ebebeb;
+}
+.modal-footer {
+    padding-right: 30%;
+}
+.contact{
+    color: #9B9B9B;
+}
+.number{
+    color: #9B9B9B;
+}
+.email{
+    color: #9B9B9B;
+}
+.modal-header{
+    color: #4A90E2;
+}
+.deletemodals{
+    color: #9B9B9B
+}
+
+.modalbtn{
+    width: 168px;
+}
+
+@media only screen and (max-width : 600px) {
+    .navbar-center {
+        justify-content: center
+    }
+    .background-image {
+        height: 73px;
+        width: 73px;
+    
+    }
+}
+
+@media only screen and (min-width : 500px) {
+    .icon {
+        float: left !important;
+    }
+    .background-image {
+        height: 100px;
+        width: 100px;
+    
+    }
+}
